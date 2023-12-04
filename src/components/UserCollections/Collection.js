@@ -1,6 +1,6 @@
 import React from "react";
 
-function Playlist(props) {
+function Collection(props) {
   const handleClick = () => {
     //console.log(props.playlist);
     props.cancelFetches();
@@ -27,4 +27,4 @@ function Playlist(props) {
   );
 }
 
-export default Playlist;
+export default Collection;

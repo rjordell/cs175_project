@@ -1,12 +1,12 @@
 import React from "react";
 import GoToMainMenuBox from "./GoToMainMenuBox";
-import UserPlaylistsBox from "./UserPlaylists/UserPlaylistsBox";
+import UserCollectionsBox from "./UserCollections/UserCollectionsBox";
 
 function LeftBoxes({ onPlaylistClick, cancelFetches }) {
   return (
     <div className="LeftBoxes">
       <GoToMainMenuBox />
-      <UserPlaylistsBox
+      <UserCollectionsBox
         onPlaylistClick={onPlaylistClick}
         cancelFetches={cancelFetches}
       />

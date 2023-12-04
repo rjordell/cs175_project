@@ -1,9 +1,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import Playlist from "./Playlist";
-import "./UserPlaylistsBox.css";
+import Collection from "./Collection";
+import "./UserCollectionsBox.css";
 
-function UserPlaylistsBox({ onPlaylistClick, cancelFetches }) {
+function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
   const [inputValue, setInputValue] = useState("");
   const [playlists, setPlaylists] = useState(null);
 
@@ -67,7 +67,7 @@ function UserPlaylistsBox({ onPlaylistClick, cancelFetches }) {
       <div className="main-container playlists">
         {playlists !== null ? (
           playlists?.items.map((item) => (
-            <Playlist
+            <Collection
               key={item.id}
               playlist={item}
               onClick={onPlaylistClick}
@@ -82,4 +82,4 @@ function UserPlaylistsBox({ onPlaylistClick, cancelFetches }) {
   );
 }
 
-export default UserPlaylistsBox;
+export default UserCollectionsBox;
