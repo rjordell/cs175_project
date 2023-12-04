@@ -1,5 +1,5 @@
 import React from "react";
-import DisplayPlaylistInfo from "./DisplayPlaylistInfo/DisplayPlaylistInfo";
+import DisplayCollectionInfo from "./DisplayCollectionInfo/DisplayCollectionInfo";
 
 function MainBox({ selectedPlaylist, playlistItemsController }) {
   //console.log("selectedPlaylist from mainbox");
@@ -7,7 +7,7 @@ function MainBox({ selectedPlaylist, playlistItemsController }) {
   return (
     <div className="MainBox">
       {selectedPlaylist && (
-        <DisplayPlaylistInfo
+        <DisplayCollectionInfo
           selectedPlaylist={selectedPlaylist}
           playlistItemsController={playlistItemsController}
         />
