@@ -21,28 +21,16 @@ function Track({ track }) {
       </div>
       <div className="everythingElse">
         <div className="now-playing__side">
-          <div className="containerHeader"></div>
+          <div className="containerHeader">{track.type}</div>
           <div className="containerSubheader">
-            
+            {track.type}
           </div>
         </div>
         <div className="now-playing__side">
           <div className="containerHeader">
             
           </div>
-          <div className="containerSubheader">followers</div>
-        </div>
-        <div className="now-playing__side">
-          <div className="containerHeader"></div>
-          <div className="containerSubheader">tempo</div>
-        </div>
-        <div className="now-playing__side">
-          <div className="containerHeader"></div>
-          <div className="containerSubheader">energy</div>
-        </div>
-        <div className="now-playing__side">
-          <div className="containerHeader"></div>
-          <div className="containerSubheader">danceability</div>
+          <div className="containerSubheader">{track.note}</div>
         </div>
       </div>
     </div>

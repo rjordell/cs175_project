@@ -11,7 +11,7 @@
     "items": [
         {
             "added_at": "2023-12-04T23:45:28Z",
-            "type": "track",
+            "type": "Song",
             "cover": {
                 "height": 640,
                 "url": "https://i.scdn.co/image/ab67616d0000b273a0fc5918a1e4db7b27b4403a",
@@ -19,11 +19,11 @@
             },
             "title": "Mirror",
             "description": "Sword II",
-            "note": "this is my note"
+            "note": "this is my note this is my notethis is my notethis is my notethis is my notethis is my notethis is my notethis is my notethis is my notethis is my notethis is my note"
         },
         {
             "added_at": "2023-12-04T23:45:28Z",
-            "type": "artist",
+            "type": "Artist",
             "cover": {
                 "height": 640,
                 "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
@@ -35,10 +35,10 @@
         },
         {
             "added_at": "2023-12-04T23:45:28Z",
-            "type": "playlist",
+            "type": "Playlist",
             "cover": {
                 "height": 640,
-                "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
+                "url": "https://cdn.musebycl.io/2021-03/Travis_Astro_Daytime_2of2.jpg",
                 "width": 640
             },
             "title": "dec23",
@@ -47,10 +47,10 @@
         },
         {
             "added_at": "2023-12-04T23:45:28Z",
-            "type": "album",
+            "type": "Album",
             "cover": {
                 "height": 640,
-                "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
                 "width": 640
             },
             "title": "DAMN",
