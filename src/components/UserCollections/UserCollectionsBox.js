@@ -5,7 +5,7 @@ import "./UserCollectionsBox.css";
 
 function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
   const [inputValue, setInputValue] = useState("");
-  const [playlists, setPlaylists] = useState(null);
+  const [playlists, setPlaylists] = useState([]);
 
   const getCurrentUsersPlaylists = async () => {
     try {
@@ -15,6 +15,7 @@ function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
         setPlaylists(null);
       } else {
         setPlaylists(data);
+        loadLocalCollections();
       }
       //console.log("current users playlsits");
       //console.log(data);
@@ -43,8 +44,32 @@ function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
     }
   };
 
+
+  const loadLocalCollections = async () => {
+    console.log("loadLocalCollections called")
+    try {
+      const localItemsResponse = await Promise.all(
+        Array.from({ length: 2 }, (_, i) =>
+          fetch(`/localItems/collection${i + 1}.json`).then((response) =>
+            response.json()
+          )
+        )
+      );
+      console.log(localItemsResponse);
+      setPlaylists((prevPlaylists) => ({
+        ...prevPlaylists,
+        items: [...prevPlaylists.items, ...localItemsResponse],
+      }));
+      //console.log(localItemsResponse);
+      //console.log(playlists);
+    } catch (error) {
+      console.error('Error loading local collections:', error);
+    }
+  };
+
   useEffect(() => {
     getCurrentUsersPlaylists();
+    //loadLocalCollections();
   }, []);
 
   return (
@@ -65,18 +90,15 @@ function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
         </button>
       </div>
       <div className="main-container playlists">
-        {playlists !== null ? (
-          playlists?.items.map((item) => (
-            <Collection
-              key={item.id}
-              playlist={item}
-              onClick={onPlaylistClick}
-              cancelFetches={cancelFetches}
-            />
-          ))
-        ) : (
-          <></>
-        )}
+        {playlists?.items?.map((item) => (
+          console.log(playlists),
+          <Collection
+            key={item.id}
+            playlist={item}
+            onClick={onPlaylistClick}
+            cancelFetches={cancelFetches}
+          />
+        ))}
       </div>
     </div>
   );
