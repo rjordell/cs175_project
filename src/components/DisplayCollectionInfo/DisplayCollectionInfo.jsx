@@ -20,12 +20,7 @@ function DisplayCollectionInfo({ selectedPlaylist, playlistItemsController }) {
         displaySort={displaySort}
       />
       <TrackBox
-        playlistId={selectedPlaylist.id}
-        setCombinedData={setCombinedData}
-        combinedData={combinedData}
-        setOriginalItems={setOriginalItems}
-        setDisplaySort={setDisplaySort}
-        playlistItemsController={playlistItemsController}
+        playlist={selectedPlaylist}
       />
     </div>
   );

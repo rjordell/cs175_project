@@ -3,12 +3,7 @@ import { useEffect } from "react";
 import Track from "./Track";
 
 function TrackBox({
-  playlistId,
-  setCombinedData,
-  combinedData,
-  setOriginalItems,
-  setDisplaySort,
-  playlistItemsController,
+  playlist
 }) {
   const getCombinedData = async (offset, allItems = []) => {
     try {
@@ -44,6 +39,7 @@ function TrackBox({
     }
   };
 
+  /*
   useEffect(() => {
     if (playlistId) {
       setCombinedData(null);
@@ -52,10 +48,11 @@ function TrackBox({
       getCombinedData(0);
     }
   }, [playlistId]);
+  */
 
   return (
     <div className="main-container tracks">
-      {combinedData?.items.map((item) => (
+      {playlist?.items.map((item) => (
         console.log(item),
         <Track key={item.track} track={item} />
       ))}

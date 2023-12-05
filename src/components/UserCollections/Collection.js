@@ -1,7 +1,7 @@
 import React from "react";
 
 function Collection(props) {
-  console.log(props.playlist);
+  //console.log(props.playlist);
   const handleClick = () => {
     //console.log(props.playlist);
     props.cancelFetches();
