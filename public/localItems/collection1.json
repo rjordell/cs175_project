@@ -1,46 +1,61 @@
 {
-    "collaborative": false,
-    "description": "",
-    "external_urls": {
-        "spotify": "https://open.spotify.com/playlist/5kTGPqz6FEgj80T1DwQDK1"
+    "name": "TESTCOLLECTION",
+    "creator": "rjordell",
+    "description": "This is my test collection",
+    "cover": {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d0000b27307f074178d042ed6df29e8e4ab67616d0000b2732e1d6f477935e2cbcf40d5acab67616d0000b27365f3df43732239f8375ab9acab67616d0000b273c82d39131cfb4de4a0d1bbb9",
+        "width": 640
     },
-    "href": "https://api.spotify.com/v1/playlists/5kTGPqz6FEgj80T1DwQDK1",
-    "id": "5kTGPqz6FEgj80T1DwQDK1",
-    "images": [
-        {
-            "height": 640,
-            "url": "https://mosaic.scdn.co/640/ab67616d0000b27307f074178d042ed6df29e8e4ab67616d0000b2732e1d6f477935e2cbcf40d5acab67616d0000b27365f3df43732239f8375ab9acab67616d0000b273c82d39131cfb4de4a0d1bbb9",
-            "width": 640
-        },
-        {
-            "height": 300,
-            "url": "https://mosaic.scdn.co/300/ab67616d0000b27307f074178d042ed6df29e8e4ab67616d0000b2732e1d6f477935e2cbcf40d5acab67616d0000b27365f3df43732239f8375ab9acab67616d0000b273c82d39131cfb4de4a0d1bbb9",
-            "width": 300
-        },
-        {
-            "height": 60,
-            "url": "https://mosaic.scdn.co/60/ab67616d0000b27307f074178d042ed6df29e8e4ab67616d0000b2732e1d6f477935e2cbcf40d5acab67616d0000b27365f3df43732239f8375ab9acab67616d0000b273c82d39131cfb4de4a0d1bbb9",
-            "width": 60
-        }
-    ],
-    "name": "TESTCOLLECTION1",
-    "owner": {
-        "display_name": "rjordell",
-        "external_urls": {
-            "spotify": "https://open.spotify.com/user/rjordell"
-        },
-        "href": "https://api.spotify.com/v1/users/rjordell",
-        "id": "rjordell",
-        "type": "user",
-        "uri": "spotify:user:rjordell"
-    },
-    "primary_color": null,
     "public": false,
-    "snapshot_id": "MTQsZDY1OTJlNWI2NGNkZDY3NjU1NWMxZTc0ZjVlNjZjNTdkNjIxNDA0OQ==",
-    "tracks": {
-        "href": "https://api.spotify.com/v1/playlists/5kTGPqz6FEgj80T1DwQDK1/tracks",
-        "total": 10
-    },
-    "type": "playlist",
-    "uri": "spotify:playlist:5kTGPqz6FEgj80T1DwQDK1"
+    "items": [
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "track",
+            "cover": {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273a0fc5918a1e4db7b27b4403a",
+                "width": 640
+            },
+            "title": "Mirror",
+            "description": "Sword II",
+            "note": "this is my note"
+        },
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "artist",
+            "cover": {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
+                "width": 640
+            },
+            "title": "✝✝✝ (Crosses)",
+            "description": "",
+            "note": "this is my note for an artist"
+        },
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "playlist",
+            "cover": {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
+                "width": 640
+            },
+            "title": "dec23",
+            "description": "rjordell",
+            "note": "this is my note for a playlist"
+        },
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "album",
+            "cover": {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album"
+        }
+    ]
 }

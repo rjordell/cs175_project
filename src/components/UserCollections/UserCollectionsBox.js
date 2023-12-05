@@ -46,7 +46,7 @@ function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
 
 
   const loadLocalCollections = async () => {
-    console.log("loadLocalCollections called")
+    //console.log("loadLocalCollections called")
     try {
       const localItemsResponse = await Promise.all(
         Array.from({ length: 2 }, (_, i) =>
@@ -55,11 +55,14 @@ function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
           )
         )
       );
-      console.log(localItemsResponse);
+      //console.log(localItemsResponse);
+      /*
       setPlaylists((prevPlaylists) => ({
         ...prevPlaylists,
         items: [...prevPlaylists.items, ...localItemsResponse],
       }));
+      */
+      setPlaylists(localItemsResponse);
       //console.log(localItemsResponse);
       //console.log(playlists);
     } catch (error) {
@@ -68,8 +71,8 @@ function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
   };
 
   useEffect(() => {
-    getCurrentUsersPlaylists();
-    //loadLocalCollections();
+    //getCurrentUsersPlaylists();
+    loadLocalCollections();
   }, []);
 
   return (
@@ -90,15 +93,29 @@ function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
         </button>
       </div>
       <div className="main-container playlists">
-        {playlists?.items?.map((item) => (
-          console.log(playlists),
+        {
+        playlists?.map((item) => (
+          //console.log("map called: ", playlists),
           <Collection
-            key={item.id}
+            key={item.name}
             playlist={item}
             onClick={onPlaylistClick}
             cancelFetches={cancelFetches}
           />
         ))}
+         {/*playlists !== null ? (
+          console.log(playlists),
+          playlists?.items.map((item) => (
+            <Collection
+              key={item.id}
+              playlist={item}
+              onClick={onPlaylistClick}
+              cancelFetches={cancelFetches}
+            />
+          ))
+        ) : (
+          <></>
+        )*/}
       </div>
     </div>
   );

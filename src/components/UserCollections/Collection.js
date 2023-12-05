@@ -1,6 +1,7 @@
 import React from "react";
 
 function Collection(props) {
+  console.log(props.playlist);
   const handleClick = () => {
     //console.log(props.playlist);
     props.cancelFetches();
@@ -10,7 +11,7 @@ function Collection(props) {
     <div className="container playlist" onClick={handleClick}>
       <div className="imageAndTitle">
         <img
-          src={props.playlist.images[0].url}
+          src={props.playlist.cover.url}
           className="coverImg playlist"
           alt=""
         />
@@ -19,7 +20,7 @@ function Collection(props) {
           <div className="containerHeader">{props.playlist.name}</div>
 
           <div className="containerSubheader">
-            {props.playlist.owner.display_name}
+            {props.playlist.creator}
           </div>
         </div>
       </div>
