@@ -15,7 +15,7 @@ function InfoHeaderBox({
           <div className="now-playing__side">
             <div className="containerHeader">{playlist.name}</div>
             <div className="containerSubheader">
-              Items
+              {playlist.items.length} Items
             </div>
           </div>
         </div>
