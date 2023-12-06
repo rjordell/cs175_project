@@ -2,9 +2,9 @@ import React from "react";
 import { useEffect, useState } from "react";
 import TrackBox from "./TrackBox";
 import InfoHeaderBox from "./InfoHeaderBox";
-import "./DisplayPlaylistInfo.css";
+import "./DisplayCollectionInfo.css";
 
-function DisplayPlaylistInfo({ selectedPlaylist, playlistItemsController }) {
+function DisplayCollectionInfo({ selectedPlaylist, playlistItemsController }) {
   //console.log(selectedPlaylist);
   const [combinedData, setCombinedData] = useState(null);
   const [original, setOriginalItems] = useState(null);
@@ -20,15 +20,10 @@ function DisplayPlaylistInfo({ selectedPlaylist, playlistItemsController }) {
         displaySort={displaySort}
       />
       <TrackBox
-        playlistId={selectedPlaylist.id}
-        setCombinedData={setCombinedData}
-        combinedData={combinedData}
-        setOriginalItems={setOriginalItems}
-        setDisplaySort={setDisplaySort}
-        playlistItemsController={playlistItemsController}
+        playlist={selectedPlaylist}
       />
     </div>
   );
 }
 
-export default DisplayPlaylistInfo;
+export default DisplayCollectionInfo;

@@ -26,9 +26,9 @@ var generateRandomString = function (length) {
 
 var app = express();
 
-const playlistRoutes = require("./routes/playlistRoutes");
+const collectionRoutes = require("./routes/collectionRoutes");
 
-app.use("/auth/playlist", playlistRoutes);
+app.use("/auth/playlist", collectionRoutes);
 
 app.get("/auth/login", (req, res) => {
   var scope =

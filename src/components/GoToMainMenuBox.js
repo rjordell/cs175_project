@@ -3,7 +3,7 @@ import React from 'react';
 function GoToMainMenuBox() {
     return (
         <div className="GoToMainMenuBox">
-            test
+            Your Feed!
         </div>
     );
 }
