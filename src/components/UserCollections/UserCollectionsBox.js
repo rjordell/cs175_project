@@ -4,46 +4,7 @@ import Collection from "./Collection";
 import "./UserCollectionsBox.css";
 
 function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
-  const [inputValue, setInputValue] = useState("");
   const [playlists, setPlaylists] = useState([]);
-
-  const getCurrentUsersPlaylists = async () => {
-    try {
-      const response = await fetch("/auth/getCurrentUsersPlaylists/");
-      const data = await response.json();
-      if (data.error) {
-        setPlaylists(null);
-      } else {
-        setPlaylists(data);
-        loadLocalCollections();
-      }
-      //console.log("current users playlsits");
-      //console.log(data);
-    } catch (error) {
-      console.error("Error retrieving current user's playlists:", error);
-      setPlaylists(null);
-    }
-  };
-
-  const getUsersPlaylists = async (id) => {
-    setPlaylists(null);
-    //console.log("called getUsersPlaylists");
-    try {
-      const response = await fetch("/auth/getUsersPlaylists/" + id);
-      const data = await response.json();
-      if (data.error) {
-        setPlaylists(null);
-      } else {
-        //console.log("received data");
-        setPlaylists(data);
-      }
-      //console.log(data);
-    } catch (error) {
-      console.error("Error retrieving user's playlists:", error);
-      setPlaylists(null);
-    }
-  };
-
 
   const loadLocalCollections = async () => {
     //console.log("loadLocalCollections called")
@@ -55,16 +16,8 @@ function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
           )
         )
       );
-      //console.log(localItemsResponse);
-      /*
-      setPlaylists((prevPlaylists) => ({
-        ...prevPlaylists,
-        items: [...prevPlaylists.items, ...localItemsResponse],
-      }));
-      */
       setPlaylists(localItemsResponse);
       //console.log(localItemsResponse);
-      //console.log(playlists);
     } catch (error) {
       console.error('Error loading local collections:', error);
     }
@@ -78,19 +31,7 @@ function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
   return (
     <div className="UserPlaylistsBox">
       <div className="UserInfo">
-        <input
-          name="mybutton"
-          placeholder="Enter User ID"
-          value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
-          className="Input"
-        />
-        <button
-          className="btn-spotify"
-          onClick={() => getUsersPlaylists(inputValue)}
-        >
-          Get info
-        </button>
+          Your collections
       </div>
       <div className="main-container playlists">
         {
