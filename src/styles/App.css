@@ -218,6 +218,8 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  align-items: center;
+  display: inline-block;
 }
 
 .containerSubheader {
@@ -228,6 +230,8 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  align-items: center;
+  display: inline-block;
 }
 
 .now-playing__status {

@@ -2,7 +2,7 @@ import React from "react";
 
 function Track({ track }) {
   //console.log("track");
-  console.log(track);
+  //console.log(track);
   return (
     <div className="container track">
       <div className="imageAndTitle">

@@ -1,13 +1,13 @@
 {
-    "name": "TESTCOLLECTION with stuff",
-    "creator": "rjordell",
-    "description": "This is my test collection second",
+    "name": "TESTCOLLECTION with longggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg title",
+    "creator": "rjordelllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll",
+    "description": "This is my test collection with a longgggggggggggggggggggggg description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description end",
     "cover": {
         "height": 640,
-        "url": "https://mosaic.scdn.co/640/ab67616d0000b27307f074178d042ed6df29e8e4ab67616d0000b2732e1d6f477935e2cbcf40d5acab67616d0000b27365f3df43732239f8375ab9acab67616d0000b273c82d39131cfb4de4a0d1bbb9",
+        "url": "https://mosaic.scdn.co/640/ab67616d0000b27307f074178d042ed6df29e8e4ab67616d0000b2732e1d6f477935e2cbcf40d5acab67616d0000b27365f3df43732239f8375ab9acab67616d0000b273c82d39131cfb4de4a0d1bbb9",   
         "width": 640
     },
-    "public": false,
+    "public": true,
     "items": [
         {
             "added_at": "2023-12-04T23:45:28Z",

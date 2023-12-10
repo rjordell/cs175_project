@@ -9,7 +9,7 @@ function TrackBox({
   return (
     <div className="main-container tracks">
       {playlist?.items.map((item) => (
-        console.log(item),
+        //console.log(item),
         <Track key={item.track} track={item} />
       ))}
     </div>
