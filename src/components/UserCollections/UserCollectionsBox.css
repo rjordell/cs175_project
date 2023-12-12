@@ -13,7 +13,7 @@
 }
 
 .UserPlaylistsBox {
-  height: 78vh;
+  height: 87vh;
   display: flex;
   align-items: center;
   width: 19vw;
@@ -25,10 +25,12 @@
 
 .main-container.playlists {
   width: 18.7vw;
+  height: 77.5vh;
 }
 
 .container.playlist {
   width: 18.4vw;
+  height: 3.1vmax;
 }
 
 .coverImg.playlist {

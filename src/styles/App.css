@@ -83,24 +83,12 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.webPlayerBox {
-  align-items: center;
-  display: flex;
-  height: 100%;
-  justify-content: left;
-  width: 35%;
-  padding-left: 0.5em;
-  z-index: 1;
-  text-align: left;
-}
-
 .MainBox {
   display: flex;
   align-items: center;
   width: 80vw;
-  height: 89vh;
+  height: 98vh;
   margin: 1vmin;
-  margin-bottom: 0;
   flex-direction: column;
   border-radius: 10px;
   font-size: 2.5vmin;
@@ -111,7 +99,7 @@ body {
   display: flex;
   align-items: center;
   width: 19vw;
-  height: 89vh;
+  height: 98vh;
   margin: 1vh;
   margin-bottom: 0vh;
   margin-right: 0;
@@ -168,6 +156,7 @@ body {
   margin: 0.3vmax;
   margin-right: 0;
   margin-bottom: 0;
+  margin-top: 0.5vmax;
   height: 68.5vh;
   justify-content: left;
   flex-direction: column;
@@ -199,7 +188,6 @@ body {
   padding: 0.3vmax;
   padding-right: 0;
   display: flex;
-  height: 3.1vmax;
   justify-content: stretch;
   text-align: left;
   border-radius: 5px;
