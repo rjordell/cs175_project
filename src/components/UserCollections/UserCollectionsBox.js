@@ -30,21 +30,26 @@ function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
 
   return (
     <div className="UserPlaylistsBox">
-      <div className="UserInfo">
+      <div className="header1"><img
+        src={`/localItems/library.png`}
+        className="coverImg library"
+      />
+        <div className="UserInfo">
           Your collections
+        </div>
       </div>
       <div className="main-container playlists">
         {
-        playlists?.map((item) => (
-          //console.log("map called: ", playlists),
-          <Collection
-            key={item.name}
-            playlist={item}
-            onClick={onPlaylistClick}
-            cancelFetches={cancelFetches}
-          />
-        ))}
-         {/*playlists !== null ? (
+          playlists?.map((item) => (
+            //console.log("map called: ", playlists),
+            <Collection
+              key={item.name}
+              playlist={item}
+              onClick={onPlaylistClick}
+              cancelFetches={cancelFetches}
+            />
+          ))}
+        {/*playlists !== null ? (
           console.log(playlists),
           playlists?.items.map((item) => (
             <Collection

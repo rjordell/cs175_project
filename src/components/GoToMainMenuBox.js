@@ -3,7 +3,14 @@ import React from 'react';
 function GoToMainMenuBox() {
     return (
         <div className="GoToMainMenuBox">
-            Your Feed!
+        <div className="header1"><img
+            src={`/localItems/home.png`}
+            className="coverImg home"
+        />
+            <div className="UserInfo">
+                Your Feed
+            </div>
+        </div>
         </div>
     );
 }
