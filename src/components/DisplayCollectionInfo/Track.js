@@ -3,6 +3,17 @@ import React from "react";
 function Track({ track }) {
   //console.log("track");
   //console.log(track);
+  const renderPlatformIcons = () => {
+    return track.available_platforms.map((platform) => (
+      <img
+        key={platform}
+        src={`/localItems/${platform.toLowerCase()}.png`}
+        alt={platform}
+        className="coverImg streamable"
+      />
+    ));
+  };
+
   return (
     <div className="container track">
       <div className="imageAndTitle item">
@@ -26,6 +37,7 @@ function Track({ track }) {
         <div className="now-playing__side note">
           <div className="containerSubheader note">{track.note}</div>
         </div>
+        <div className="now-playing__side streamable">{renderPlatformIcons()}</div>
       </div>
     </div>
   );

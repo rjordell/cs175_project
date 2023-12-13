@@ -153,10 +153,7 @@ body {
 .main-container {
   display: flex;
   overflow-y: hidden;
-  margin: 0.3vmax;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-top: 0.5vmax;
+  margin-left: 0.3vmax;
   height: 68.5vh;
   justify-content: left;
   flex-direction: column;

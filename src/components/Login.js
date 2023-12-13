@@ -5,7 +5,7 @@ function Login() {
         <div className="App">
             <header className="App-header">
                 <a className="btn-spotify" href="/auth/login" >
-                    Log into your AMP account with Spotify!
+                    Login to AMP with your Spotify account!
                 </a>
             </header>
         </div>

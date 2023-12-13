@@ -4,7 +4,7 @@
     "description": "This is my test collection with a longgggggggggggggggggggggg description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description end",
     "cover": {
         "height": 640,
-        "url": "https://mosaic.scdn.co/640/ab67616d0000b27307f074178d042ed6df29e8e4ab67616d0000b2732e1d6f477935e2cbcf40d5acab67616d0000b27365f3df43732239f8375ab9acab67616d0000b273c82d39131cfb4de4a0d1bbb9",   
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb959331c5b7645df06f12d688",   
         "width": 640
     },
     "public": true,
@@ -19,7 +19,12 @@
             },
             "title": "Mirror",
             "description": "Sword II",
-            "note": "this is my note"
+            "note": "this is my note",
+            "available_platforms": [
+                "Spotify",
+                "Apple_Music",
+                "Soundcloud"
+            ]
         },
         {
             "added_at": "2023-12-04T23:45:28Z",
@@ -31,7 +36,12 @@
             },
             "title": "✝✝✝ (Crosses Lollers)",
             "description": "",
-            "note": "this is my note for an artist"
+            "note": "this is my note for an artist",
+            "available_platforms": [
+                "Spotify",
+                "Apple_Music",
+                "Soundcloud"
+            ]
         },
         {
             "added_at": "2023-12-04T23:45:28Z",
@@ -43,7 +53,12 @@
             },
             "title": "dec23",
             "description": "rjordell",
-            "note": "this is my note for a playlist"
+            "note": "this is my note for a playlist",
+            "available_platforms": [
+                "Spotify",
+                "Apple_Music",
+                "Soundcloud"
+            ]
         },
         {
             "added_at": "2023-12-04T23:45:28Z",
@@ -55,7 +70,12 @@
             },
             "title": "DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN ",
             "description": "Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar ",
-            "note": "this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album "
+            "note": "this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album ",
+            "available_platforms": [
+                "Spotify",
+                "Apple_Music",
+                "Soundcloud"
+            ]
         }
     ]
 }
