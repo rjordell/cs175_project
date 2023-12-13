@@ -1,81 +1,66 @@
 {
-    "name": "Jazz",
+    "name": "Vibrant Vibes",
     "creator": "Jordell",
-    "description": "This is my test collection with a longgggggggggggggggggggggg description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description end",
+    "description": "Immerse yourself in a world of vibrant musical vibes.",
     "cover": {
-        "height": 640,
-        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb959331c5b7645df06f12d688",   
-        "width": 640
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273b1150f77ae2fbf0d5b4715fc",
+      "width": 640
     },
     "public": true,
     "items": [
-        {
-            "added_at": "2023-12-04T23:45:28Z",
-            "type": "track",
-            "cover": {
-                "height": 640,
-                "url": "https://i.scdn.co/image/ab67616d0000b273a0fc5918a1e4db7b27b4403a",
-                "width": 640
-            },
-            "title": "Mirror",
-            "description": "Sword II",
-            "note": "this is my note",
-            "available_platforms": [
-                "Spotify",
-                "Apple_Music",
-                "Soundcloud"
-            ]
+      {
+        "added_at": "2023-12-04T23:45:28Z",
+        "type": "Song",
+        "cover": {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273a0fc5918a1e4db7b27b4403a",
+          "width": 640
         },
-        {
-            "added_at": "2023-12-04T23:45:28Z",
-            "type": "artist",
-            "cover": {
-                "height": 640,
-                "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
-                "width": 640
-            },
-            "title": "✝✝✝ (Crosses Lollers)",
-            "description": "",
-            "note": "this is my note for an artist",
-            "available_platforms": [
-                "Spotify",
-                "Apple_Music",
-                "Soundcloud"
-            ]
+        "title": "Groovy Beats",
+        "description": "Funky Maestro",
+        "note": "Feel the groove with this funky beat.",
+        "available_platforms": ["Spotify", "Apple_Music", "Soundcloud"]
+      },
+      {
+        "added_at": "2023-12-04T23:45:28Z",
+        "type": "Artist",
+        "cover": {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
+          "width": 640
         },
-        {
-            "added_at": "2023-12-04T23:45:28Z",
-            "type": "playlist",
-            "cover": {
-                "height": 640,
-                "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
-                "width": 640
-            },
-            "title": "dec23",
-            "description": "rjordell",
-            "note": "this is my note for a playlist",
-            "available_platforms": [
-                "Spotify",
-                "Apple_Music",
-                "Soundcloud"
-            ]
+        "title": "GrooveMaster",
+        "description": "",
+        "note": "",
+        "available_platforms": ["Spotify", "Apple_Music"]
+      },
+      {
+        "added_at": "2023-12-04T23:45:28Z",
+        "type": "Playlist",
+        "cover": {
+          "height": 640,
+          "url": "https://cdn.musebycl.io/2021-03/Travis_Astro_Daytime_2of2.jpg",
+          "width": 640
         },
-        {
-            "added_at": "2023-12-04T23:45:28Z",
-            "type": "album",
-            "cover": {
-                "height": 640,
-                "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
-                "width": 640
-            },
-            "title": "DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN ",
-            "description": "Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar ",
-            "note": "this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album ",
-            "available_platforms": [
-                "Spotify",
-                "Apple_Music",
-                "Soundcloud"
-            ]
-        }
+        "title": "Vibrant Mix",
+        "description": "GrooveMaster",
+        "note": "A mix of vibrant tunes to brighten your day.",
+        "available_platforms": ["Spotify", "Soundcloud"]
+      },
+      {
+        "added_at": "2023-12-04T23:45:28Z",
+        "type": "Album",
+        "cover": {
+          "height": 640,
+          "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+          "width": 640
+        },
+        "title": "Vibrant Rhythms",
+        "description": "GrooveMaster",
+        "note": "Get into the rhythm with these vibrant beats.",
+        "available_platforms": ["Apple_Music", "Soundcloud"]
+      }
     ]
-}
+  }
+  
