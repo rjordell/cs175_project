@@ -1,10 +1,10 @@
 {
-    "name": "Harmony Haven",
-    "creator": "Owen",
-    "description": "Dive into the world of musical bliss with Harmony Haven.",
+    "name": "Vibrant Vibes",
+    "creator": "Jordell",
+    "description": "Immerse yourself in a world of vibrant musical vibes.",
     "cover": {
       "height": 640,
-      "url": "https://i.scdn.co/image/ab67616d0000b273a0fc5918a1e4db7b27b4403a",
+      "url": "https://i.scdn.co/image/ab67616d0000b273b1150f77ae2fbf0d5b4715fc",
       "width": 640
     },
     "public": true,
@@ -17,9 +17,9 @@
           "url": "https://i.scdn.co/image/ab67616d0000b273a0fc5918a1e4db7b27b4403a",
           "width": 640
         },
-        "title": "Melodic Dreams",
-        "description": "Aria Harmony",
-        "note": "Close your eyes and let the music carry you.",
+        "title": "Groovy Beats",
+        "description": "Funky Maestro",
+        "note": "Feel the groove with this funky beat.",
         "available_platforms": ["Spotify", "Apple_Music", "Soundcloud"]
       },
       {
@@ -30,10 +30,10 @@
           "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
           "width": 640
         },
-        "title": "Sonic Voyager",
+        "title": "GrooveMaster",
         "description": "",
         "note": "",
-        "available_platforms": ["Apple_Music", "Soundcloud"]
+        "available_platforms": ["Spotify", "Apple_Music"]
       },
       {
         "added_at": "2023-12-04T23:45:28Z",
@@ -43,10 +43,10 @@
           "url": "https://cdn.musebycl.io/2021-03/Travis_Astro_Daytime_2of2.jpg",
           "width": 640
         },
-        "title": "Euphoric Beats",
+        "title": "Vibrant Mix",
         "description": "GrooveMaster",
-        "note": "Get ready to dance your heart out.",
-        "available_platforms": ["Spotify", "Apple_Music"]
+        "note": "A mix of vibrant tunes to brighten your day.",
+        "available_platforms": ["Spotify", "Soundcloud"]
       },
       {
         "added_at": "2023-12-04T23:45:28Z",
@@ -56,23 +56,10 @@
           "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
           "width": 640
         },
-        "title": "Celestial Harmony",
-        "description": "Harmony Ensemble",
-        "note": "Let the cosmic melodies elevate your spirit.",
-        "available_platforms": []
-      },
-      {
-        "added_at": "2023-12-04T23:45:28Z",
-        "type": "Album",
-        "cover": {
-          "height": 640,
-          "url": "https://i.scdn.co/image/ab67616d0000b273b1150f77ae2fbf0d5b4715fc",
-          "width": 640
-        },
-        "title": "Mystical Grooves",
-        "description": "Melodic Fusion",
-        "note": "Immerse yourself in the magic of Mystical Grooves.",
-        "available_platforms": ["Spotify", "Soundcloud"]
+        "title": "Vibrant Rhythms",
+        "description": "GrooveMaster",
+        "note": "Get into the rhythm with these vibrant beats.",
+        "available_platforms": ["Apple_Music", "Soundcloud"]
       }
     ]
   }

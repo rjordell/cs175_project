@@ -1,0 +1,66 @@
+{
+    "name": "Epic Soundscapes",
+    "creator": "SonicExplorer",
+    "description": "Embark on an epic journey through captivating soundscapes.",
+    "cover": {
+      "height": 640,
+      "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+      "width": 640
+    },
+    "public": true,
+    "items": [
+      {
+        "added_at": "2023-12-04T23:45:28Z",
+        "type": "Song",
+        "cover": {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273a0fc5918a1e4db7b27b4403a",
+          "width": 640
+        },
+        "title": "Epic Odyssey",
+        "description": "Sonic Voyager",
+        "note": "A musical odyssey through time and space.",
+        "available_platforms": ["Spotify", "Apple_Music", "Soundcloud"]
+      },
+      {
+        "added_at": "2023-12-04T23:45:28Z",
+        "type": "Artist",
+        "cover": {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
+          "width": 640
+        },
+        "title": "Epic Explorer",
+        "description": "",
+        "note": "",
+        "available_platforms": ["Spotify", "Apple_Music"]
+      },
+      {
+        "added_at": "2023-12-04T23:45:28Z",
+        "type": "Playlist",
+        "cover": {
+          "height": 640,
+          "url": "https://cdn.musebycl.io/2021-03/Travis_Astro_Daytime_2of2.jpg",
+          "width": 640
+        },
+        "title": "Journey Through Sound",
+        "description": "SonicExplorer",
+        "note": "Embark on an epic auditory journey.",
+        "available_platforms": ["Spotify", "Soundcloud"]
+      },
+      {
+        "added_at": "2023-12-04T23:45:28Z",
+        "type": "Album",
+        "cover": {
+          "height": 640,
+          "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+          "width": 640
+        },
+        "title": "Epic Symphonies",
+        "description": "Sonic Symphony Orchestra",
+        "note": "Immerse yourself in grand symphonic adventures.",
+        "available_platforms": ["Apple_Music", "Soundcloud"]
+      }
+    ]
+  }
+  

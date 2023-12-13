@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import WebPlayer from "./components/WebPlayer/WebPlayer";
 import Login from "./components/Login";
 import MainBox from "./components/MainBox";
 import LeftBoxes from "./components/LeftBoxes";
@@ -40,7 +39,6 @@ function App() {
           selectedPlaylist={selectedPlaylist}
           playlistItemsController={playlistItemsController}
         />
-        <WebPlayer token={token} />
       </div>
     );
   }

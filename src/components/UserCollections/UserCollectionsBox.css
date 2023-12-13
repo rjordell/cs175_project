@@ -1,19 +1,27 @@
 .UserInfo {
-  padding: 0.5em;
   align-items: center;
   display: flex;
   height: 9vh;
   justify-content: left;
   position: relative;
-  width: 100%;
+  width: 15.5vw;
   z-index: 1;
   text-align: left;
   flex-direction: row;
   border-radius: 10px 10px 0px 0px;
 }
 
+.header1 {
+  height: 9vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+}
+
 .UserPlaylistsBox {
-  height: 78vh;
+  height: 87vh;
   display: flex;
   align-items: center;
   width: 19vw;
@@ -25,14 +33,28 @@
 
 .main-container.playlists {
   width: 18.7vw;
+  height: 77.5vh;
 }
 
 .container.playlist {
   width: 18.4vw;
+  height: 3.1vmax;
 }
 
 .coverImg.playlist {
   border-radius: 5px;
+}
+
+.coverImg.library {
+  border-radius: 5px;
+  filter: invert(100%);
+  margin-right: 0.5vmax;
+  width: 2.3vmax;
+  height: 2.3vmax;
+}
+
+.coverImg.home {
+  margin-right: 0.5vmax;
 }
 
 .playlists_cover {
