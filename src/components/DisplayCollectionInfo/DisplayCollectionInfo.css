@@ -67,7 +67,10 @@
 }
 
 .container.header {
+  width: 79.1vw;
   flex-direction: row;
+  border-bottom: 2px solid #222;  
+  margin-right: 0.3vmax;
 }
 
 .container.header:hover {
@@ -112,8 +115,8 @@
 .imageAndTitle.headerTitle {
   height: 100%;
   width: 16.1vw;
-  text-align: center;
-  justify-content: center;
+  text-align: left;
+  justify-content: right;
 }
 
 .containerHeader.itemTitle {
@@ -160,6 +163,11 @@
   display: flex;
 }
 
+.everythingElse.header {
+  width: 62.7vw;
+  display: flex;
+}
+
 .now-playing__side.collectionInfo {
   height: 100%;
   width: 66vw;
@@ -167,6 +175,11 @@
 
 .now-playing__side.item{
   height: 4.7vmax;
+  width: 11.1vw;
+}
+
+.now-playing__side.headerItem{
+  height: 1vmax;
   width: 11.1vw;
 }
 
