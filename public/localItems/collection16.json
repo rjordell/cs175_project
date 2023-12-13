@@ -1,0 +1,299 @@
+{
+    "name": "Best music",
+    "creator": "Jordell",
+    "description": "This is my test collection",
+    "cover": {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d0000b27307f074178d042ed6df29e8e4ab67616d0000b2732e1d6f477935e2cbcf40d5acab67616d0000b27365f3df43732239f8375ab9acab67616d0000b273c82d39131cfb4de4a0d1bbb9",
+        "width": 640
+    },
+    "public": false,
+    "items": [
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Song",
+            "cover": {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273a0fc5918a1e4db7b27b4403a",
+                "width": 640
+            },
+            "title": "Mirror",
+            "description": "Sword II",
+            "note": "this is my note ",
+            "available_platforms": [
+                "Spotify",
+                "Apple_Music",
+                "Soundcloud"
+            ]
+        },
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Artist",
+            "cover": {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
+                "width": 640
+            },
+            "title": "✝✝✝ (Crosses)",
+            "description": "",
+            "note": "this is my note for an artist",
+            "available_platforms": [
+                "Apple_Music",
+                "Soundcloud"
+            ]
+        },
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Playlist",
+            "cover": {
+                "height": 640,
+                "url": "https://cdn.musebycl.io/2021-03/Travis_Astro_Daytime_2of2.jpg",
+                "width": 640
+            },
+            "title": "dec23",
+            "description": "rjordell",
+            "note": "this is my note for a playlist",
+            "available_platforms": [
+                "Spotify",
+                "Apple_Music"
+            ]
+        },
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify",
+                "Soundcloud"
+            ]
+        },
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify"
+            ]
+        }
+        ,
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify",
+                "Soundcloud"
+            ]
+        }
+        ,
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify",
+                "Soundcloud"
+            ]
+        }
+        ,
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify",
+                "Soundcloud"
+            ]
+        }
+        ,
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify",
+                "Soundcloud"
+            ]
+        }
+        ,
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify",
+                "Soundcloud"
+            ]
+        }
+        ,
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify",
+                "Soundcloud"
+            ]
+        }
+        ,
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify",
+                "Soundcloud"
+            ]
+        }
+        ,
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify",
+                "Soundcloud"
+            ]
+        }
+        ,
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify",
+                "Soundcloud"
+            ]
+        }
+        ,
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify",
+                "Soundcloud"
+            ]
+        }
+        ,
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify",
+                "Soundcloud"
+            ]
+        }
+        ,
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "Album",
+            "cover": {
+                "height": 640,
+                "url": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF1000,1000_QL80_.jpg",
+                "width": 640
+            },
+            "title": "DAMN",
+            "description": "Kendrick Lamar",
+            "note": "this is my note for an album",
+            "available_platforms": [
+                "Spotify",
+                "Soundcloud"
+            ]
+        }
+    ]
+}
+
+

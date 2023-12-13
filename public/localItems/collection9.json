@@ -1,0 +1,81 @@
+{
+    "name": "Best of Blues",
+    "creator": "Eric Clapton",
+    "description": "This is my test collection with a longgggggggggggggggggggggg description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description description end",
+    "cover": {
+        "height": 640,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb959331c5b7645df06f12d688",   
+        "width": 640
+    },
+    "public": true,
+    "items": [
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "track",
+            "cover": {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273a0fc5918a1e4db7b27b4403a",
+                "width": 640
+            },
+            "title": "Mirror",
+            "description": "Sword II",
+            "note": "this is my note",
+            "available_platforms": [
+                "Spotify",
+                "Apple_Music",
+                "Soundcloud"
+            ]
+        },
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "artist",
+            "cover": {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
+                "width": 640
+            },
+            "title": "✝✝✝ (Crosses Lollers)",
+            "description": "",
+            "note": "this is my note for an artist",
+            "available_platforms": [
+                "Spotify",
+                "Apple_Music",
+                "Soundcloud"
+            ]
+        },
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "playlist",
+            "cover": {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
+                "width": 640
+            },
+            "title": "dec23",
+            "description": "rjordell",
+            "note": "this is my note for a playlist",
+            "available_platforms": [
+                "Spotify",
+                "Apple_Music",
+                "Soundcloud"
+            ]
+        },
+        {
+            "added_at": "2023-12-04T23:45:28Z",
+            "type": "album",
+            "cover": {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
+                "width": 640
+            },
+            "title": "DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN DAMN ",
+            "description": "Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar Kendrick Lamar ",
+            "note": "this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album this is my note for an album ",
+            "available_platforms": [
+                "Spotify",
+                "Apple_Music",
+                "Soundcloud"
+            ]
+        }
+    ]
+}

@@ -10,7 +10,7 @@ function UserCollectionsBox({ onPlaylistClick, cancelFetches }) {
     //console.log("loadLocalCollections called")
     try {
       const localItemsResponse = await Promise.all(
-        Array.from({ length: 2 }, (_, i) =>
+        Array.from({ length: 16 }, (_, i) =>
           fetch(`/localItems/collection${i + 1}.json`).then((response) =>
             response.json()
           )

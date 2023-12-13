@@ -71,6 +71,7 @@
   flex-direction: row;
   border-bottom: 2px solid #222;  
   margin-right: 0.3vmax;
+  border-radius: 0px;
 }
 
 .container.header:hover {
