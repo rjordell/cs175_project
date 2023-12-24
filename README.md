@@ -1,2 +1,2 @@
 # cs175_project
-For the amp prototypse
+For the amp prototype
